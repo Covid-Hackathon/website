@@ -2,8 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './assets/css/index.css';
 import App from './App';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-/*import '../node_modules/bootstrap/dist/js/bootstrap.min.js';*/
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'jquery/dist/jquery.min.js'
+import 'bootstrap/dist/js/bootstrap.min.js'
+import './assets/css/template/owl.theme.default.min.css';
+import './assets/css/template/jquery.fancybox.min.css';
+//import './assets/css/template/owl.carousel.min.css';
+import './assets/css/template/aos.css';
+import './assets/css/template/style.css';
+
+
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(

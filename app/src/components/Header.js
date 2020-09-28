@@ -12,7 +12,7 @@ class Header extends Component {
             <div className="col-11 col-xl-2">
               <h1 className="mb-0 site-logo">
                 <a href="index.html" className="text-black h2 mb-0">
-                  Create<span className="text-primary">.</span>{" "}
+                  T-CUBE<span className="text-primary"></span>{" "}
                 </a>
               </h1>
             </div>

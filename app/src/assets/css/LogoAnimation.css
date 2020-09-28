@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* #ea5fd0, #f97650 */
+.center h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 33px;
+    color: white;
+    background: repeating-linear-gradient(-45deg, #ea5fd0 0%, #f97650 7.14%, #ea5fd0 14.28%,
+    #f97650 21.4%, #ea5fd0 28.56%, #f97650 35.7%, #ea5fd0 42.84%, #f97650 50%);
+
+    background-size: 800vw;
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+    animation: slide 11s linear infinite forwards;
+}
+@keyframes slide {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 800vw;
+    }
+}
+

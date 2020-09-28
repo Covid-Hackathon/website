@@ -1,0 +1,21 @@
+[
+  {
+    "id": "1",
+    "title": "Forecasting",
+    "text": "Decide whether to impose or relax lockdown restrictions, the management of PPE and supplies, or important resources. ",
+    "icon": "s2.png"
+  },
+  {
+    "id": "2",
+    "title": "Estimation",
+    "text": "Estimate and procure material and human resources in advance. T-CUBE turns your company from reactive to proactive.",
+    "icon": "s1.png"
+  },
+  {
+    "id": "3",
+    "title": "Easy API Integration",
+    "text": "Scalable and adaptive for user-centric data. T-CUBE can be integrated with any system and for any amount of users to track COVID.",
+    "icon": "s3.png"
+  }
+  
+]
